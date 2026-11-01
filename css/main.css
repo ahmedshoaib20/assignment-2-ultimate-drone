@@ -1,0 +1,608 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content .w-100 {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+.py {
+  padding-top: 60px;
+}
+
+.pt {
+  padding-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.d-display {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+
+
+.nav .nav-box {
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.nav {
+  background-color: #004d98;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav .left-nav img {
+  width: 10%;
+  padding-right: 10px;
+}
+
+.nav .left-nav {
+  background-color: #004d98;
+}
+
+.nav .right-nav ul {
+  padding-left: 15px;
+  gap: 25px;
+}
+
+
+
+
+
+
+
+.hero-section {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.hero-section .t-shirt {
+  width: 40%;
+  padding: 20px;
+  border: 3px solid #004d98;
+  border-radius: 25px;
+}
+
+.hero-section .t-shirt .inner {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.hero-section .t-shirt img {
+  width: 100%;
+  border-radius: 25px;
+  border: 3px solid #004d98;
+  object-fit: contain;
+}
+
+.hero-section .t-shirt span {
+  background-color: #edbb00;
+  padding: 5px 8px;
+  color: #004d98;
+  border-radius: 8px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.hero-section .content-t {
+  width: 60%;
+  padding: 50px;
+  font-size: 120%;
+}
+
+.hero-section .content-t .headr {
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.hero-section .content-t .headr .tag-item {
+  background-color: #edbb00;
+  color: #004d98;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.hero-section .content-t h1 {
+  font-size: 300%;
+}
+
+.hero-section .content-t h1 span {
+  color: #a50044;
+}
+
+.hero-section .content-t .old-price {
+  font: size 100%;
+  text-decoration: line-through;
+  color: black;
+}
+
+.hero-section .content-t .current-price {
+  font-size: 180%;
+}
+
+.hero-section .content-t .save-badge {
+  background-color: #a50044;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 80%;
+}
+
+.hero-section .content-t .cart {
+  background-color: #edbb00;
+  width: 100%;
+  color: #004d98;
+  border: none;
+  padding: 10px 30px;
+  font-size: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .content-t .cart img {
+  width: 25px;
+
+  gap: 10px;
+}
+
+.hero-section .content-t .wishlist {
+  background-color: transparent;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #a50044;
+  border: 3px solid #004d98;
+  padding: 10px 30px;
+  font-size: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+  transition:
+    background-color 0.5s 0.4s,
+    color 0.5s;
+}
+
+.hero-section .content-t .wishlist:hover {
+  background-color: #a50044;
+  color: #ffffff;
+}
+
+
+.hero-section .content-t .wishlist img {
+  width: 25px;
+  gap: 10px;
+}
+
+
+
+
+
+.Key-Features {
+  background-color: #f7f7fc;
+  padding-top: 50px;
+
+
+}
+
+.Key-Features .titel {
+  padding-bottom: 20px;
+
+}
+
+.Key-Features .titel h2 {
+  color: #004d98;
+  font-size: 250%;
+}
+
+.Key-Features .titel span {
+
+  color: #a50044;
+
+}
+
+.Key-Features .titel p {
+  font-size: 130%;
+}
+
+.Key-Features .card {
+
+  padding: 20px;
+  margin: 10px 20px;
+
+}
+
+.Key-Features .card1 {
+  width: 33%;
+  font-size: 120%;
+  padding: 15px;
+  border-radius: 30px;
+transition: transform 0.3s ease;
+
+}
+ 
+.Key-Features .card1:hover {
+    transform: translateY(-8px);
+}
+.Key-Features .card .inner {
+  background-color: #ecdfdf;
+  border-radius: 30px;
+  padding: 20px;
+
+}
+
+.Key-Features .card1 .photo {
+
+  background-color: #bbb3b254;
+  width: 20%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 20%;
+  text-align: center;
+}
+
+.Key-Features .card1 .photo img {
+
+  width: 40px;
+}
+
+.Key-Features .card1 p {
+  font-size: 90%;
+}
+
+.Key-Features .card1 h4 {
+  color: #a50044;
+  font-size: 140%;
+}
+
+.Key-Features .card1 .color {
+  color: #004d98;
+  font-size: 17px;
+  font-weight: 600;
+
+
+}
+
+.Key-Features .banner0 {
+  background-color: #004d98;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+
+}
+
+.Key-Features .banner1 {
+  color: #ffffff;
+  font-size: 120%;
+  padding-left: 20px;
+}
+
+.Key-Features .banner2 a {
+  background-color: #a50044;
+  color: #ffffff;
+  padding: 15px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+.Related-Products {
+  background-color: hsl(240, 45%, 98%);
+  padding-top: 40px;
+
+}
+
+.Related-Products:hovr {
+  transform: translateY(20px);
+}
+
+.Related-Products .titel {}
+
+.Related-Products .titel-text h2 {
+  font-size: 250%;
+  color: #a50044;
+}
+
+.Related-Products .titel-text span {
+  color: #004d98;
+}
+
+.Related-Products .titel-text p {
+  font-size: 130%;
+}
+
+.Related-Products .card {
+
+  padding: 15px;
+}
+
+.Related-Products .card .content {
+  justify-content: space-between;
+  width: 25%;
+
+  padding: 20px;
+
+  border-radius: 25px;
+
+}
+
+.Related-Products .inner {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 20px;
+  border: 1px solid #010a1359;
+
+}
+
+.Related-Products .card .content img {
+  width: 80%;
+  border-radius: 30px;
+  padding-top: 15px;
+  transition: transform 0.3s ease;
+}
+.Related-Products .card .content:hover img {
+    transform: scale(1.08);
+}
+
+.Related-Products .card .content .text h3 {
+
+  font-size: 130%;
+}
+
+.Related-Products .card .content .text p {
+  font-size: 110%;
+}
+
+.Related-Products .card .content .price {
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 35px;
+
+}
+
+
+
+.Related-Products .card .content .price span {
+  font-size: 130%;
+
+}
+
+.Related-Products .card .content .price button {
+  background-color: #a50044;
+  color: #ffffff;
+  padding: 7px 15px;
+  border-radius: 15px;
+
+}
+
+.Related-Products .card .content .badge-accessory span {
+  background-color: #a50044;
+  color: #ffffff;
+  padding: 3px 10px;
+  border-radius: 15px;
+
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+}
+
+.Related-Products .card .content .accessory {
+  position: relative;
+}
+
+.Related-Products .view {
+
+  padding: 10px 0;
+}
+
+.Related-Products .view button {
+  background-color: #a50044;
+  color: #ffffff;
+  padding: 20px 60px;
+  border-radius: 30px;
+  transition: background-color 0.5s,
+    color 0.5s;
+
+}
+
+.Related-Products .view button:hover {
+  background-color: #004d98;
+  color: #ffffff;
+}
+
+.site-footer {
+  background-color: #0b1329;
+  color: #94a3b8;
+  padding: 60px 20px 20px 20px;
+  font-size: 0.9rem;
+}
+
+
+.site-footer .container {
+
+  margin: 0 auto;
+
+  justify-content: space-between;
+
+
+  padding-bottom: 40px;
+  border-bottom: 1px solid #1e293b;
+}
+
+.site-footer .footer-col {
+  padding: 0 15px;
+  width: 25%;
+}
+
+.site-footer .footer-col .logo-fc {
+
+  width: 100%;
+  gap: 10px;
+
+}
+
+.site-footer .brand-col {
+  flex: 1.5;
+}
+
+
+.site-footer .footer-club-logo {
+  width: 45px;
+
+  margin-bottom: 10px;
+
+}
+
+.site-footer .brand-col p {
+
+  margin-bottom: 20px;
+  color: #94a3b8;
+}
+
+
+.site-footer .social-icons {
+
+  gap: 12px;
+}
+
+.site-footer .social-icons span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: #1e293b;
+  border-radius: 8px;
+transition: background-color 0.3s ease;
+
+}
+
+.site-footer .social-icons span:hover {
+  background-color: #a50044;
+}
+
+.site-footer .social-icons span img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+
+.site-footer .footer-col h4 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.site-footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.site-footer .footer-links span {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.site-footer .footer-links span:hover {
+  color: #ffffff;
+}
+
+
+.site-footer .footer-bottom {
+  width: 100%;
+  padding-top: 25px;
+
+
+
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.site-footer .copyright span {
+  color: #94a3b8;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: color 0.2s ease;
+}
+
+.site-footer .copyright span:hover {
+  color: #ffffff;
+}
+
+
+.site-footer .payment-methods {
+  gap: 10px;
+}
+
+.site-footer .pay-badge {
+  background-color: #ffffff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer .pay-badge img {
+  height: 14px;
+  width: auto;
+}
+
+
+
+
+

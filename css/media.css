@@ -1,0 +1,41 @@
+@media screen and (max-width: 1024px) {
+    .Key-Features .card1 {
+        width: 50%;
+    }
+
+    .Related-Products .card .content {
+        width: 50%;
+    }
+    
+
+    .site-footer .footer-col {
+        width: 45%;
+    }
+
+    .site-footer .brand-col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav .left-nav img {
+        width: 35px;
+    }
+
+    .hero-section .t-shirt, 
+    .hero-section .content-t {
+        width: 100%;
+    }
+
+    .Key-Features .card1 {
+        width: 100%;
+    }
+
+    .Related-Products .card .content {
+        width: 100%;
+    }
+
+    .site-footer .footer-col {
+        width: 100%;
+    }
+}
